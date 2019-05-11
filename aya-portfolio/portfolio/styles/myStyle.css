@@ -1,0 +1,254 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Assistant');
+
+
+body {
+    direction: rtl;
+    font-family: 'Assistant', sans-serif;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    right: 65px;
+}
+
+h2 {
+    position: relative;
+    right: 304px;
+}
+
+/************************ menu ***************************/
+header {
+    z-index: 1000;
+}
+
+nav ul li {
+    display: inline-block;
+    float: right;
+    position: fixed;
+    z-index: 1000;
+}
+
+    nav ul li a {
+        display: block;
+        background-color: #666666;
+        color: white;
+        width: 120px;
+        height: 40px;
+        padding-top: 18px;
+        text-decoration: none;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+
+        nav ul li a:hover {
+            background-color:darkred;
+        }
+
+        nav ul li a:active {
+            background-color: white;
+        }
+.navone {
+    position: fixed;
+    right: 120px;
+}
+.navtwo {
+    position: fixed;
+    right: 240px;
+}
+.navthree {
+    position: fixed;
+    right: 360px;
+}
+       
+#nameLogo {
+    width: 150px;
+    height: 100px;
+    position: fixed;
+    right: 627px;
+    z-index: 500;
+    bottom: 815px;
+}
+
+
+            .line {
+                border: 2px solid darkred;
+                width:960px;
+            }
+.line1 {
+    position: relative;
+    top: 485px;
+}
+
+/************************home page ***************************/
+#art {
+    position: relative;
+    right: 291.5px;
+    width: 377px;
+    float: right;
+}
+
+#aboutMe {
+    padding: 20px;
+    margin-top: 25px;
+    margin-right: 25px;
+    position: relative;
+    top: 380px;
+    right: 116.5px;
+}
+
+/*************************CV page**************************/
+
+#cvSection {
+    padding: 50px;
+    margin: 30px;
+    height: 30px;
+    max-width: 100%;
+}
+
+/*************************UI page פרידה קאלו**************************/
+#frida {
+    position: relative;
+    top: 515px;
+    left: 20%;
+}
+
+    #frida h3 {
+        position: relative;
+        right: 238px;
+    }
+
+#lift {  
+    height: 440px;
+}
+
+#calameo {
+    position: relative;
+    top: 455px;
+}
+
+#TXTfrida {
+    position:relative;
+    right: 60px;
+}
+
+/*************************UX page**************************/
+
+#UXpage {
+    position: relative;
+    right: 60px;
+}
+.titles {
+    position: relative;
+    right: 340px;
+}
+/*************************Illustrator page**************************/
+#illuspage {
+    position: relative;
+    right: 60px;
+}
+#illustrator h3 {
+    position: relative;
+    right: 360px;
+}
+
+.firstNlastPIC {
+    position: relative;
+    bottom: 281px;
+    right: 494px;
+    width: 263px;
+}
+
+.portrate {
+    position: relative;
+    right: 451px;
+}
+
+.secondPIC {
+    left: 4px;
+    position: relative;
+    bottom: 316px;
+    width: 346px;
+}
+
+.lastPIC {
+    position: relative;
+    top: 290px;
+    right: 494px;
+    width: 496px;
+}
+}
+
+.animation {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.animation:hover {
+    background-color: black;
+    padding: 10px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+/*************************Photoshop page**************************/
+
+#Photoshoppage {
+    position: relative;
+    right: 60px;
+}
+
+#photoshopTXT {
+    position: relative;
+    bottom: 626px;
+    right: 494px;
+    width: 263px;
+}
+#video {
+    position:relative;
+    bottom: 470px;
+}
+
+    #video iframe {
+        position: relative;
+        right: 235px;
+        bottom: 63px;
+    }
+/*תיקון לבעית הטמעה של סרטון מיוטיוב */
+/*@media (min-width: 1024px) {
+    .content_viewport {
+        border: 0px none;
+        height: 900px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1023px) {
+    .content_viewport {
+        border: 0px none;
+        height: 900px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .content_viewport {
+        border: 0px none;
+        height: 900px;
+        width: 100%;
+    }
+}*/
+/*סיום תיקון - נמצא בעזרת חיפוש בגוגל*/
+#sound2 {
+    position: relative;
+    bottom: 450px;
+}
